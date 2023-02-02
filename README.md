@@ -60,7 +60,7 @@ catkin_make
 roslaunch coral_detector coral_detector_py.launch
 ```
 <!-- Step-by-step Demonstration -->
-## Getting Started
+## Step-by-step Demonstration
 
 
 <!-- CONTRIBUTING -->
