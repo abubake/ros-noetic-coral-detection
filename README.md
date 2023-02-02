@@ -69,7 +69,7 @@ Unfortunately it only detects faces for now, but hopefully coral soon!
 Here is an example of the face detection. I have a node that outputs each frame undetected (just a video stream) and also the frame with the detection.
 ![Screenshot from 2023-02-02 09-09-45](https://user-images.githubusercontent.com/32299736/216394111-1b0be9bb-01f5-4309-b064-ad60b452571a.png)
 
-Here's the ROS graph. This is accessed by typing "rqt_graph" in the terminal. I Have an additional unconnect node (dector_node) which just outputs some data for fun. The basic function of the system is having usb_cam publish the image_raw topic, which my ImageView_subscriber node subscribes to, which image_view also subscribes to, as to display the two different video streams. One with bounding boxes, one without.
+Here's the ROS graph. This is accessed by typing "rqt_graph" in the terminal. I Have an additional unconnect node (dector_node) which just outputs some data for fun. The basic function of the system is having usb_cam publish the image_raw topic, which my imgFrame_subscriber node subscribes to, which image_view also subscribes to, as to display the two different video streams. One with bounding boxes, one without.
 ![Screenshot from 2023-02-02 09-17-58](https://user-images.githubusercontent.com/32299736/216395940-e3575c13-75d6-4aba-aa3a-1b61d3df16f4.png)
 
 
