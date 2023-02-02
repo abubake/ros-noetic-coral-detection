@@ -1,9 +1,7 @@
-# ros-noetic-coral-detection
-
 <!-- PROJECT LOGO -->
 <br />
 
-  <h3 align="center"> # Applied Machine Learning Project 2</h3>
+  <h3 align="center"> # ros-noetic-coral-detection</h3>
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
