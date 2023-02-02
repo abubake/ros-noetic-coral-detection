@@ -17,7 +17,6 @@
 </details>
 
 
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
@@ -39,6 +38,7 @@ If you don't already have ROS installed or don't have the correct version...
 - Create your catkin workspace
 - Follow the ROS installation tutorials at http://wiki.ros.org/noetic/Installation/Ubuntu if you are new to ROS
 - After making sure your setup.bash files are properly sourced:
+
 ```
 roscd catkin_ws/src
 git clone https://github.com/abubake/ros-noetic-coral-detection.git
@@ -48,6 +48,8 @@ roslaunch coral_detector coral_detector_py.launch
 ```
 <!-- Step-by-step Demonstration -->
 ## Step-by-step Demonstration
+
+![Screenshot from 2023-02-02 08-56-41](https://user-images.githubusercontent.com/32299736/216391496-b5d76817-48ae-4d8c-add5-264510f6c79c.png)
 
 
 <!-- CONTRIBUTING -->
