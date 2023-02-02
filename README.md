@@ -34,11 +34,11 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Author: Baker Herrin
-GatorID: 5153-5125
-ROS version: ROS Noetic
-OS Version: Ubuntu 20.04
-ROS Package name: coral_detector
+**Author:** Baker Herrin
+**GatorID:** 5153-5125
+**ROS version:** ROS Noetic
+**OS Version:** Ubuntu 20.04
+**ROS Package name:** coral_detector
 
 Description:
 Currently face detection using opencv cascades for the detection, but will be updated to detect coral heads.
@@ -46,19 +46,22 @@ Repository works as is and is stable on master, but still under development.
 
 <!-- QUICKSTART -->
 ## TL;DR quickstart
-To setup a conda environment and replicate results:
+To replicate results:
+If you don't already have ROS installed or don't have the correct version...
+- install ROS noetic on Ubuntu 20.04. I used Vmware Player on my System76 Gazelle.
+- Create your catkin workspace
+- Follow the ROS installation tutorials at http://wiki.ros.org/noetic/Installation/Ubuntu if you are new to ROS
+- After making sure your setup.bash files are properly sourced:
 ```
-git clone https://github.com/UF-Applied-ML-Systems-F22/project-2-abubake.git
-cd project-2-abubake
-conda env create -f environment.yml
-conda activate project_2
+roscd catkin_ws/src
+git clone https://github.com/abubake/ros-noetic-coral-detection.git
+roscd catkin_ws
+catkin_make
+roslaunch coral_detector coral_detector_py.launch
 ```
-<!-- GETTING STARTED -->
+<!-- Step-by-step Demonstration -->
 ## Getting Started
 
-Follow the quickstart instructions above. If not using the environment file, you will need to 'pip install' all the neccesarry requirements listed in environment.yml
-
-To replicate the results, you will want to first run the training.ipynb file. This will generate all the models needed for the test file. After that, you can run the test.ipynb file. All the models are also included here for your convience, so if you just want to use the results already produced from training the models, you can use the pre-trained models with the test.ipynb file. Note: running the training file will overwrite all the models, so be careful!
 
 <!-- CONTRIBUTING -->
 ## Contributing
