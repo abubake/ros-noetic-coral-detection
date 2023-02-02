@@ -49,7 +49,25 @@ roslaunch coral_detector coral_detector_py.launch
 <!-- Step-by-step Demonstration -->
 ## Step-by-step Demonstration
 
+Start by opening up 3 terminals, I used Tilix.
+
 ![Screenshot from 2023-02-02 08-56-41](https://user-images.githubusercontent.com/32299736/216391496-b5d76817-48ae-4d8c-add5-264510f6c79c.png)
+
+Then run roscore. Make sure you have properly sourced your workspace.
+![Screenshot from 2023-02-02 09-01-04](https://user-images.githubusercontent.com/32299736/216392017-9acedeb7-020a-4570-a543-a0588d9cce17.png)
+
+For proper sourcing, add these lines to your bashrc as seen below. I used "vim ~/.bashrc to open it in the terminal to edit it.
+```
+source /opt/ros/noetic/setup.bash
+source ~/catkin_ws/devel/setup.bash
+```
+Then roscd into coral_detector and then run roslaunch coral_detector coral_detector_py.launch
+Unfortunately it only detects faces for now, but hopefully coral soon!
+![Screenshot from 2023-02-02 09-12-48](https://user-images.githubusercontent.com/32299736/216394899-b36326d3-8a4f-4366-9caf-72e92474fe75.png)
+
+
+Here is an example of the face detection. I have a node that outputs each frame undetected (just a video steam) and also the frame with the detection.
+![Screenshot from 2023-02-02 09-09-45](https://user-images.githubusercontent.com/32299736/216394111-1b0be9bb-01f5-4309-b064-ad60b452571a.png)
 
 
 <!-- CONTRIBUTING -->
