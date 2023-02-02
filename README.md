@@ -14,7 +14,7 @@
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#Step-by-step Demonstration">Step-by-step Demonstration</a>
       <ul>
         <li><a href="#dependencies">Dependencies</a></li>
         <li><a href="#installation">Installation</a></li>
