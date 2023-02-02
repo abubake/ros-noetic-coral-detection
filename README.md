@@ -1,15 +1,5 @@
 # ros-noetic-coral-detection
 
-Author: Baker Herrin
-GatorID: 5153-5125
-ROS version: ROS Noetic
-OS Version: Ubuntu 20.04
-ROS Package name: coral_detector
-
-Description:
-Currently face detection using opencv cascades for the detection, but will be updated to detect coral heads.
-Repository works as is and is stable on master, but still under development.
-
 <!-- PROJECT LOGO -->
 <br />
 
@@ -46,14 +36,15 @@ Repository works as is and is stable on master, but still under development.
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This project implements several feature reduction techniques and evaluates there perfromance using two different classifiers, logistic regression and random forest. Some of the techniques explored here include MDS, LLE, ISOMAP, LDA, PCA and t-SNE.
+Author: Baker Herrin
+GatorID: 5153-5125
+ROS version: ROS Noetic
+OS Version: Ubuntu 20.04
+ROS Package name: coral_detector
 
-The dataset you will be working with is available for download here:
-
-* ["data_train.npy"](https://ufl.instructure.com/files/72621855/download?download_frd=1)
-* ["labels_train.npy"](https://ufl.instructure.com/files/72621858/download?download_frd=1)
-* ["data_test.npy"](https://ufl.instructure.com/files/72621555/download?download_frd=1)
-* ["labels_test.npy"](https://ufl.instructure.com/files/72621857/download?download_frd=1)
+Description:
+Currently face detection using opencv cascades for the detection, but will be updated to detect coral heads.
+Repository works as is and is stable on master, but still under development.
 
 <!-- QUICKSTART -->
 ## TL;DR quickstart
