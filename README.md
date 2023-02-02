@@ -66,7 +66,7 @@ Unfortunately it only detects faces for now, but hopefully coral soon!
 ![Screenshot from 2023-02-02 09-12-48](https://user-images.githubusercontent.com/32299736/216394899-b36326d3-8a4f-4366-9caf-72e92474fe75.png)
 
 
-Here is an example of the face detection. I have a node that outputs each frame undetected (just a video steam) and also the frame with the detection.
+Here is an example of the face detection. I have a node that outputs each frame undetected (just a video stream) and also the frame with the detection.
 ![Screenshot from 2023-02-02 09-09-45](https://user-images.githubusercontent.com/32299736/216394111-1b0be9bb-01f5-4309-b064-ad60b452571a.png)
 
 
